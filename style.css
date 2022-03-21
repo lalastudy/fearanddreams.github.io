@@ -1,2 +1,28 @@
 
 <style> a { color : black ; transition: 0.5 s; } a:hover { color : green ; } </style>
+<div id="header"></div>
+<div id="main">
+  <div id="aside" class="column"></div>
+  <div id="article" class="column"></div>
+</div>
+<div id="footer"></div>
+
+.main .column {
+  float: aside;
+}
+ 
+.center {
+  width: 100%;
+}
+ 
+,aside {
+  width: 100px; 
+}
+ 
+.article {
+  width: 300px; 
+}
+ 
+.footer {
+  clear: both;
+}
