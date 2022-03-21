@@ -1,28 +1,19 @@
+body{ 
+ flex-direction: column; 
+ } 
+ body,main{ 
+ display: flex; 
+ } 
+ main{ 
+ flex: auto; 
+ } 
 
-<style> a { color : black ; transition: 0.5 s; } a:hover { color : green ; } </style>
-<div id="header"></div>
-<div id="main">
-  <div id="aside" class="column"></div>
-  <div id="article" class="column"></div>
-</div>
-<div id="footer"></div>
-
-.main .column {
-  float: left;
-}
- 
-.center {
-  width: 100%;
-}
- 
-,aside {
-  width: 100px; 
-}
- 
-.article {
-  width: 300px; 
-}
- 
-.footer {
-  clear: both;
+ aside{ 
+ flex: 1; 
+ } 
+ article{ 
+ flex: 3; 
+ } 
+ .article-image{ 
+ float: left; 
 }
